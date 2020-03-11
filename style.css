@@ -112,3 +112,76 @@ ul {
 .log_in a{
     transition: .50s ease-in-out;
 }
+
+/* footer */
+
+footer {
+    position: relative;
+}
+
+.contact_area {
+    position: absolute;
+    top: -66px;
+    width: 100%;
+}
+
+.contact_box {
+    overflow: hidden;
+}
+
+.contact {
+    padding: 25px 6px 25px 10px;
+}
+.contact {
+    
+    background-color: #d72e33;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.contact_title h1 {
+    font-family: 'latomedium';
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.contact_desc {
+    margin-top: 8px;
+}
+
+.contact_image {
+    text-align: center;
+    vertical-align: top;
+    padding-top: 4px;
+    width: 20px;
+    display: inline-block;
+}
+
+.contact_image i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.contact_info {
+    margin-left: 6px;
+    display: inline-block;
+    width: calc(100% - 30px);
+}
+
+.contact_info a, .contact_info p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    display: block;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ .col-sm-4{
+    float: left;
+}
